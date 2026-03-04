@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X News</title>
+    <script type="module" src="https://unpkg.com/lit@3/index.js"></script>
+  <script type="module" crossorigin src="/assets/lit-language-CGmcNQo9.js"></script>
+  <script type="module" crossorigin src="/assets/lit-header-hSyXkQIe.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/topic-BXBblLJo.css">
+</head>
+
+<body>
+    <lit-header></lit-header>
+    <div class="container">
+        <!-- 顶部导航区域 -->
+        <div class="header">
+            <nav class="breadcrumb" id="breadcrumb">
+                <!-- 动态生成面包屑导航 -->
+            </nav>
+            <h1 class="topic-title" id="topicTitle">
+                <!-- 动态生成话题标题 -->
+            </h1>
+
+            <!-- 子话题区域 -->
+            <div class="subtopics-container" id="subtopicsContainer">
+                <!-- 动态生成子话题 -->
+            </div>
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="content">
+            <!-- 最近文章 -->
+            <section class="stories-section">
+                <div class="stories-list" id="topStories">
+                    <!-- 动态生成最新文章 -->
+                </div>
+            </section>
+            <p class="divide-tip">Stories older than 24h</p>
+            <!-- 更多文章 -->
+            <section class="stories-section">
+                <div class="stories-list" id="moreStories">
+                    <!-- 动态生成更多文章 -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        // 获取话题ID - 支持新的路径格式和旧的查询参数格式
+        function getTopicId() {
+            // 首先尝试从路径中获取 (新格式: /topic/topic-id)
+            const pathMatch = window.location.pathname.match(/^\/topic\/(.+)$/);
+            if (pathMatch) {
+                return pathMatch[1];
+            }
+
+            // 然后尝试从查询参数获取 (兼容旧格式和vite重写格式)
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('__topic') || urlParams.get('t');
+        }
+
+        // 格式化时间显示
+        function formatTime(ago) {
+            return ago.toUpperCase();
+        }
+
+        // 创建文章卡片
+        function createStoryCard(story, isFirstStory = false) {
+            const hasSubTitle = story.sub_title && story.sub_title.trim();
+            const isStyleA = isFirstStory && hasSubTitle;
+
+            if (isStyleA) {
+                return `
+                    <article class="story-card style-a">
+                        <a href="${story.link}" class="story-link">
+                            <div class="story-image">
+                                <img src="https://particle.news${story.img}" alt="${story.title}" loading="lazy">
+                            </div>
+                            <div class="story-content">
+                                <div class="story-meta">
+                                    <span class="story-count">${story.count} ARTICLES</span>
+                                    <span class="story-time">${formatTime(story.ago)}</span>
+                                </div>
+                                <h3 class="story-title">${story.title}</h3>
+                                <p class="story-subtitle">${story.sub_title}</p>
+                            </div>
+                        </a>
+                    </article>
+                `;
+            } else {
+                return `
+                    <article class="story-card style-b">
+                        <a href="${story.link}" class="story-link">
+                            <div class="story-content">
+                                <div class="story-meta">
+                                    <span class="story-count">${story.count} ARTICLES</span>
+                                    <span class="story-time">${formatTime(story.ago)}</span>
+                                </div>
+                                <h3 class="story-title">${story.title}</h3>
+                            </div>
+                            <div class="story-image">
+                                <img src="https://particle.news${story.img}" alt="${story.title}" loading="lazy">
+                            </div>
+                        </a>
+                    </article>
+                `;
+            }
+        }
+
+        // 创建面包屑导航
+        function createBreadcrumb(ancestors) {
+            const breadcrumbItems = ancestors.map(ancestor =>
+                `<a href="/topic/${ancestor.key}" class="breadcrumb-item">${ancestor.name}</a>`
+            ).join('<span class="breadcrumb-separator">></span>');
+
+            return breadcrumbItems;
+        }
+
+        // 加载话题数据
+        async function loadTopicData() {
+            const topicKey = getTopicId();
+
+            if (!topicKey) {
+                document.getElementById('topicTitle').textContent = 'this topic not found';
+                return;
+            }
+
+            try {
+                const oss_url = "http://www.newsora.net/assets";
+                // 根据当前语言设置确定数据路径
+                const currentLanguage = localStorage.getItem('language') || 'zh-CN';
+                const dataPath = currentLanguage === 'zh-CN' ? '/json/zh-CN' : '/json/en';
+
+                const response = await fetch(`${oss_url}${dataPath}/topic/${topicKey}.json`);
+
+                if (!response.ok) {
+                    throw new Error('话题数据加载失败');
+                }
+
+                const data = await response.json();
+
+                // 更新页面标题
+                document.title = `${data.topic} - X News`;
+
+                // 生成面包屑导航
+                if (data.ancestors && data.ancestors.length > 0) {
+                    document.getElementById('breadcrumb').innerHTML = createBreadcrumb(data.ancestors);
+                }
+
+                // 设置话题标题
+                document.getElementById('topicTitle').textContent = data.topic;
+
+                // 生成最新文章
+                if (data.stories && data.stories.top) {
+                    const topStoriesHtml = data.stories.top.map((story, index) =>
+                        createStoryCard(story, index === 0)).join('');
+                    document.getElementById('topStories').innerHTML = topStoriesHtml;
+                }
+
+                // 生成更多文章
+                if (data.stories && data.stories.more) {
+                    const moreStoriesHtml = data.stories.more.map(story =>
+                        createStoryCard(story)).join('');
+                    document.getElementById('moreStories').innerHTML = moreStoriesHtml;
+                }
+
+                // 生成子话题
+                if (data.sub_topics && data.sub_topics.length > 0) {
+                    const subtopicsContainer = document.getElementById('subtopicsContainer');
+                    data.sub_topics.forEach(subTopic => {
+                        const topicTag = document.createElement('span');
+                        topicTag.className = 'topic-tag';
+                        topicTag.textContent = subTopic.name;
+                        topicTag.addEventListener('click', () => {
+                            window.open(`/topic/${subTopic.key}`, '_blank');
+                        });
+                        subtopicsContainer.appendChild(topicTag);
+                    });
+                }
+
+            } catch (error) {
+                console.error('加载话题数据时出错:', error);
+                document.getElementById('topicTitle').textContent = '加载失败';
+            }
+        }
+
+        // 页面加载完成后执行
+        document.addEventListener('DOMContentLoaded', loadTopicData);
+    </script>
+</body>
+
+</html>

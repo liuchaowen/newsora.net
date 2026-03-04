@@ -1,0 +1,75 @@
+{
+    "title": "苹果扩大AKI团队以构建内部AI回答引擎",
+    "sub_title": "该团队与搜索专家一起成长，构建了一个网络爬行答案引擎，旨在潜在地集成Siri、Spotlight和Safari。",
+    "article_count": "44",
+    "ago": "4h ago",
+    "overview": [
+        "AKI部门由人工智能首席执行官John Giannandrea领导的Robby Walker领导，正在开发一种精简的ChatGPT风格搜索工具，可以在网络上抓取一般问题。",
+        "苹果正在积极招募在搜索算法和引擎开发方面经验丰富的工程师，以加强探索项目。",
+        "该解答引擎仍处于早期发布前阶段，短期内没有计划公开发布。",
+        "苹果正在考虑将独立应用程序和后台集成到Siri、Spotlight和Safari中，以提供新的搜索功能。",
+        "此举凸显了苹果从将复杂查询外包到外部服务转向构建专有人工智能搜索基础设施的转变。"
+    ],
+    "articles": [
+        {
+            "title": "苹果能否创建一个与Gemini和ChatGPT相媲美的人工智能搜索引擎？这就是它成功的原因",
+            "link": "https://www.zdnet.com/article/could-apple-create-an-ai-search-engine-to-rival-gemini-and-chatgpt-heres-how-it-could-succeed/",
+            "site_name": "ZDNET",
+            "site_ago": "4h",
+            "img": "https://www.zdnet.com/a/fly/bundles/zdnetcore/images/logos/zdnet-logo-yellow.png"
+        },
+        {
+            "title": "蒂姆·库克暗示苹果的产品路线图是有史以来最令人兴奋的- 9to5Mac",
+            "link": "https://9to5mac.com/2025/08/04/tim-cook-hints-apples-product-roadmap-is-its-most-exciting-ever/",
+            "site_name": "9to5Mac",
+            "site_ago": "5h",
+            "img": "https://9to5mac.com/wp-content/themes/ninetofive/dist/images/favicons/9to5mac/icon-192x192.png"
+        },
+        {
+            "title": "准备好，苹果有一个“惊人的”产品管道的方式- MacMegasite",
+            "link": "https://macmegasite.com/2025/08/04/get-ready-apple-has-an-amazing-pipeline-of-products-on-the-way/",
+            "site_name": "",
+            "site_ago": "",
+            "img": "https://macmegasite.com/wp-content/uploads/2020/04/mms.ico"
+        },
+        {
+            "title": "苹果的AI力量移动：为什么AKI“答案”可能比ChatGPT更大",
+            "link": "https://dev.to/alifar/apples-ai-power-move-why-aki-answers-might-be-bigger-than-chatgpt-d80",
+            "site_name": "DEV Community",
+            "site_ago": "10h",
+            "img": "https://media.dev.to/cdn-cgi/image/width=128,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png"
+        },
+        {
+            "title": "Apple的Answers团队比看起来更重要-9 to 5 Mac",
+            "link": "https://9to5mac.com/2025/08/04/apples-answers-team-is-a-bigger-deal-than-it-might-seem/",
+            "site_name": "9to5Mac",
+            "site_ago": "11h",
+            "img": "https://9to5mac.com/wp-content/themes/ninetofive/dist/images/favicons/9to5mac/icon-192x192.png"
+        },
+        {
+            "title": "苹果已准备好敞开钱包追赶人工智能-首席执行官库克- MacMegasite",
+            "link": "https://macmegasite.com/2025/08/04/apple-is-ready-to-open-its-wallet-to-catch-up-in-ai-ceo-cook/",
+            "site_name": "",
+            "site_ago": "",
+            "img": "https://macmegasite.com/wp-content/uploads/2020/04/mms.ico"
+        }
+    ],
+    "images": [
+        {
+            "src": "https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36695330/3bdfe13be47f6f12b89388fff5716834fc790a33e372f905e4362d2d00e8261f",
+            "logo": "https://interestingengineering.com/icons/apple-icon-180x180.png"
+        },
+        {
+            "src": "https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36658474/582fc210b55575248f14ad727ff2c007ee27f852209cd39274d3ae33e858c60b",
+            "logo": "https://www.timesnownews.com/tnnassets/images/icons/tnn-512.png"
+        },
+        {
+            "src": "https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36581310/dacfbea941c1baf393e8c1cdb64b92f2cdbdcfc2400fca5166defab7738911e7",
+            "logo": "https://storage.googleapis.com/uploads.mongoosehq.com/publication-icons/mashable-apple-touch-logo.png"
+        },
+        {
+            "src": "https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36561148/c6544aedb7aad503a2d1fc4b678dd50d823dda44c348fd4b87c49751e0acb9fd",
+            "logo": "https://s.yimg.com/kw/assets/favicon-160x160.png"
+        }
+    ]
+}

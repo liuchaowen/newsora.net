@@ -1,0 +1,203 @@
+{
+    "ancestors": [
+        {
+            "name": "Entertainment",
+            "key": "m1yya"
+        },
+        {
+            "name": "Sports",
+            "key": "m1yyaFdkwb"
+        }
+    ],
+    "topic": "Wrestling",
+    "key": "m1yyaFdkwbdwWUy",
+    "sub_topics": [
+        {
+            "name": "WWE",
+            "key": "m1yyaFdkwbdwWUywCP8t"
+        },
+        {
+            "name": "Professional Wrestling",
+            "key": "m1yyaFdkwbdwWUyaZ7O1"
+        },
+        {
+            "name": "Wrestlers",
+            "key": "m1yyaFdkwbdwWUy9UGfs"
+        },
+        {
+            "name": "Storylines",
+            "key": "m1yyaFdkwbdwWUyX7dB0"
+        },
+        {
+            "name": "Events",
+            "key": "m1yyaFdkwbdwWUyruakF"
+        },
+        {
+            "name": "AEW",
+            "key": "m1yyaFdkwbdwWUygCRrp"
+        },
+        {
+            "name": "WrestleMania",
+            "key": "m1yyaFdkwbdwWUyvnquI"
+        },
+        {
+            "name": "Championships",
+            "key": "m1yyaFdkwbdwWUyHdRnE"
+        },
+        {
+            "name": "Matches",
+            "key": "m1yyaFdkwbdwWUyarlu0"
+        },
+        {
+            "name": "NXT",
+            "key": "m1yyaFdkwbdwWUyU887B"
+        }
+    ],
+    "stories": {
+        "top": [
+            {
+                "link": "lesnars-surprise-return-at-summerslam-follows-rhodes-and-rollins-title-wins",
+                "img": "/cdn-cgi/image/onerror=redirect,width=1280,height=1280,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36821365/43a7f328680fbd145e846b428266a15f2e2551a8e331add841e3f90befa49a94",
+                "count": "92",
+                "ago": "1h ago",
+                "title": "Lesnar’s Surprise Return at SummerSlam Follows Rhodes and Rollins Title Wins",
+                "sub_title": "Brock Lesnar’s surprise attack on John Cena follows a two-night SummerSlam that saw Cody Rhodes crowned Undisputed Champion after Seth Rollins cashed in on CM Punk."
+            },
+            {
+                "link": "cardi-b-ignites-summerslam-night-one-with-wwe-hosting-debut",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36803057/5373979e3012bfbbdb2c0e76311881620ef322ffbdcf94ae483084178f817f58",
+                "count": "8",
+                "ago": "3h ago",
+                "title": "Cardi B Ignites SummerSlam Night One With WWE Hosting Debut"
+            },
+            {
+                "link": "seth-rollins-orchestrates-fake-knee-injury-to-execute-summerslam-cash-in",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url_cluster_summary/images/e3e8176de5a77e38f3419f896bfc62abae1bf5bf62a8af072f642a10d8aaa785.jpeg",
+                "count": "4",
+                "ago": "5h ago",
+                "title": "Seth Rollins Orchestrates Fake Knee Injury to Execute SummerSlam Cash-In"
+            },
+            {
+                "link": "naomi-steals-pin-to-retain-womens-world-title-at-summerslam",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36612644/ea56ef243037f732a6815118008707100638a0b705f08886a97d6d43720c3858",
+                "count": "7",
+                "ago": "7h ago",
+                "title": "Naomi Steals Pin to Retain Women’s World Title at SummerSlam"
+            }
+        ],
+        "more": [
+            {
+                "link": "nick-hogan-chokes-up-at-summerslam-tribute-while-brooke-hogan-says-she-wasnt-invited",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36482100/217dfdfd1bd11d43289577fd8c554c956ad15080bcb9140cbd4fbf98e3a0ae92",
+                "count": "6",
+                "ago": "yesterday",
+                "title": "Nick Hogan Chokes Up at SummerSlam Tribute While Brooke Hogan Says She Wasn’t Invited"
+            },
+            {
+                "link": "sami-zayns-summerslam-win-raises-questions-about-karrion-krosss-wwe-future",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36431044/244bf47ee20fdb63bf9931934588564ad5fac8395bf5614acf24a8eeeee87237",
+                "count": "3",
+                "ago": "2d ago",
+                "title": "Sami Zayn’s SummerSlam Win Raises Questions About Karrion Kross’s WWE Future"
+            },
+            {
+                "link": "becky-lynch-to-debut-wonder-years-crafted-entrance-theme-at-summerslam",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36229338/1cddfae317af7df34247b1b753395dc8d57fe00cc8d29fa4da04fe08b6006d70",
+                "count": "3",
+                "ago": "2d ago",
+                "title": "Becky Lynch to Debut Wonder Years-Crafted Entrance Theme at SummerSlam"
+            },
+            {
+                "link": "nikki-bella-will-delay-surgery-after-breast-implant-displacement-in-raw-match",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/36213055/bcb0f1d68c5fa3755939dba0d1f1824d2db7ce6d0c89bf3c4d9c4047985efaf3",
+                "count": "8",
+                "ago": "2d ago",
+                "title": "Nikki Bella Will Delay Surgery After Breast Implant Displacement in Raw Match"
+            },
+            {
+                "link": "summerslam-debuts-two-night-format-with-cena-vs-rhodes-and-punk-vs-gunther-headliners",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/35901605/a1593d24cad73129c4d53883e5d3ae5e36736227e1eb3ede8515dd29c8e0e2d8",
+                "count": "39",
+                "ago": "2d ago",
+                "title": "SummerSlam Debuts Two-Night Format With Cena vs. Rhodes and Punk vs. Gunther Headliners"
+            },
+            {
+                "link": "forensic-report-confirms-hogans-heart-attack-linked-to-undiagnosed-leukemia",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/35891176/d7f5c3754b9ab2c0e6fb7983454e31d944ea200afeac0fcd6751ced9ff46e53e",
+                "count": "17",
+                "ago": "3d ago",
+                "title": "Forensic Report Confirms Hogan’s Heart Attack Linked to Undiagnosed Leukemia"
+            },
+            {
+                "link": "cody-rhodes-cites-disrespect-as-reason-for-aew-exit",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/35852609/14f29565cef7f24ecfcdef2c3b282b9cd753cd1ab32ed32fa3826913b06c4d87",
+                "count": "4",
+                "ago": "4d ago",
+                "title": "Cody Rhodes Cites ‘Disrespect’ as Reason for AEW Exit"
+            },
+            {
+                "link": "nick-hogan-leads-10-bell-salute-to-hulk-hogan-at-wwe-raw-tribute",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/35205747/8c6d241d47c19337792c1f8539af6270c8fb23fcad97f7d420067dfacabf994e",
+                "count": "48",
+                "ago": "6d ago",
+                "title": "Nick Hogan Leads 10-Bell Salute to Hulk Hogan at WWE Raw Tribute"
+            },
+            {
+                "link": "drew-mcintyre-stranded-in-england-before-summerslam-as-wwe-scrambles-to-resolve-passport-issue",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/35091937/696502757d9a5036449865c116edbb6c7d87c3938adfb6b77b742b270f062c6b",
+                "count": "4",
+                "ago": "6d ago",
+                "title": "Drew McIntyre Stranded in England Before SummerSlam as WWE Scrambles to Resolve Passport Issue"
+            },
+            {
+                "link": "chelsea-green-pauses-social-media-after-death-threats-over-hogan-tribute",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/34883953/8db33a4aa2fa9758b1cf9811ced5212af0f86009f37d9769b93457fbb5b95793",
+                "count": "10",
+                "ago": "last wk.",
+                "title": "Chelsea Green Pauses Social Media After Death Threats Over Hogan Tribute"
+            },
+            {
+                "link": "hulk-hogan-dies-at-71-following-cardiac-arrest-at-florida-home",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/34488268/54a8ef52e3dd1e1abaf107dac06c1846007c8351a84176ecbe1a9c681c416d2a",
+                "count": "583",
+                "ago": "last wk.",
+                "title": "Hulk Hogan Dies at 71 Following Cardiac Arrest at Florida Home"
+            },
+            {
+                "link": "wwe-smackdown-opens-with-hulk-hogan-tribute-and-confirms-six-team-tlc-tag-match",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/34703912/c1265a2831425f6ef312f77fb7d2e5f842627d799cb7a56e26ba7945844c4951",
+                "count": "4",
+                "ago": "last wk.",
+                "title": "WWE SmackDown Opens With Hulk Hogan Tribute and Confirms Six-Team TLC Tag Match"
+            },
+            {
+                "link": "roman-reigns-and-jey-uso-to-face-bron-breakker-and-bronson-reed-in-official-summerslam-tag-match",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/34234962/f7fcdae628ce6ff431f75e13b07eb2f329854a05a8fdb7113b856fa6334d3f5e",
+                "count": "3",
+                "ago": "last wk.",
+                "title": "Roman Reigns and Jey Uso to Face Bron Breakker and Bronson Reed in Official SummerSlam Tag Match"
+            },
+            {
+                "link": "undertaker-returns-to-nxt-and-chokeslams-tna-champion-trick-williams",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/34131380/c4b6919eeb2a29189da9b63966e40d71ae416f7b8d7e23c2eafb149df35db131",
+                "count": "3",
+                "ago": "last wk.",
+                "title": "Undertaker Returns to NXT and Chokeslams TNA Champion Trick Williams"
+            },
+            {
+                "link": "wwe-expands-summerslam-to-cinemas-with-two-night-metlife-stadium-event",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url_cluster_summary/images/66d1f2c9c344bbc0c13ebc2911ed7706b4efae6a8d8aedf8f63d14f07671d8f1.jpeg",
+                "count": "6",
+                "ago": "last wk.",
+                "title": "WWE Expands SummerSlam to Cinemas With Two-Night MetLife Stadium Event"
+            },
+            {
+                "link": "naomi-cashes-in-to-capture-wwe-womens-world-championship-at-evolution",
+                "img": "/cdn-cgi/image/onerror=redirect,width=320,height=320,format=avif/https://storage.googleapis.com/uploads.mongoosehq.com/url/media/32649660/c0d3781c33a95203569723ec135722f53cc3dd6fb1944064585e1ee121e32ecf",
+                "count": "3",
+                "ago": "2w ago",
+                "title": "Naomi Cashes In to Capture WWE Women’s World Championship at Evolution"
+            }
+        ]
+    }
+}
