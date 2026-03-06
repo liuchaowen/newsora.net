@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^story/([^/]+)/?$ /story.html [L]
-RewriteRule ^topic/([^/]+)/?$ /topic.html [L]
